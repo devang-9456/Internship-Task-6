@@ -9,15 +9,15 @@ Typical Evaluation Criteria:
 •	Time to Crack: Estimated (from minutes to billions of years).
 
 Example Summary Table
-| Password                     | Length | Complexity              | Estimated Strength   | Feedback (Typical)                   |
-|------------------------------|--------|-------------------------|----------------------|--------------------------------------|
-| password                     | 8      | None                    | Weak                 | Easily guessed; dictionary word      |
-| Password123                  | 11     | Upper, lower, digit     | Moderate             | Slightly better; still common        |
-| Pass123!                     | 8      | Upper, lower, digit, sym| Moderate             | Too short; could improve further     |
-| StrongPass#2025!             | 15     | Upper, lower, digit, sym| Strong               | Good length; good character mix      |
-| L0ng&ComplexP@ssw0rd2025$    | 24     | Full variety            | Very Strong          | Exceptional; hard to crack           |
-| 1234567890                   | 10     | Digits only             | Weak                 | Sequential; easily guessed           |
-| P@$$w0rd!                    | 9      | Substitution, symbols   | Moderate             | Looks strong; still predictable      |
+| Password                     | Length | Complexity                  | Estimated Strength   | Feedback (Typical)                   |
+|------------------------------|--------|-----------------------------|----------------------|--------------------------------------|
+| password                     | 8      | None                        | Very Weak            | Easily guessed; dictionary word      |
+| Password123                  | 11     | Upper, lower, digit         | Very Weak            | Slightly better; still common        |
+| Pass123!                     | 8      | Upper, lower, digit, symbols| Very Weak            | Too short; could improve further     |
+| StrongPass#2025!             | 15     | Upper, lower, digit, symbols| Strong               | Good length; good character mix      |
+| L0ng&ComplexP@ssw0rd2025$    | 24     | Full variety                | Very Strong          | Exceptional; hard to crack           |
+| 1234567890                   | 10     | Digits only                 | Very Weak            | Sequential; easily guessed           |
+| P@$$w0rd!                    | 9      | Substitution, symbols       | Very Weak            | Looks strong; still predictable      |
 
 Most checkers flagged "password", "1234567890" as weak, while long and complex options like "L0ng&ComplexP@ssw0rd2025$" were rated "Exceptional" or "Very Strong".
 ________________________________________
