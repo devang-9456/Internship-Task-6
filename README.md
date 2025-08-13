@@ -7,7 +7,7 @@ This demonstrates understanding of password strength, complexity, and best pract
 ## Contents
 - `passwords`: Sample passwords with varying complexity.
 - `analysis`: Summary and explanations for password strength results, common password attacks, and security tips.
-- `screenshots`: (Screenshots of each password being tested on password meters.)
+- `Screenshots6`: (Screenshots of each password being tested on password meters.)
 - `README.md`: This document explains the approach and findings.
 
 ## Highlights
